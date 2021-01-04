@@ -12,9 +12,9 @@
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
-          <a class="button is-primary">
+          <NuxtLink to="/topics/create" class="button is-primary">
             <strong>相談を作成</strong>
-          </a>
+          </NuxtLink>
         </div>
       </b-navbar-item>
     </template>
